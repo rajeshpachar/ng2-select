@@ -66,7 +66,7 @@ let optionsTemplate = `
     <div class="ui-select-match"
          *ngIf="!inputMode">
       <span tabindex="-1"
-          class="btn btn-default btn-secondary form-control ui-select-toggle"
+          class="form-control ui-select-toggle"
           (^click)="matchClick()"
           style="outline: 0;">
         <span *ngIf="active.length <= 0" class="ui-select-placeholder text-muted">{{placeholder}}</span>
